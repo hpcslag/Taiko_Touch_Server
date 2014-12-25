@@ -1,25 +1,37 @@
 Taiko_Touch_Server
 ==================
-
-Taiko_Touch Client Customer to Server. using .NET 4.5 C++
-Taiko_Touch Client Send KeyEvent using MinGW3 API
+This is Taiko_Touch Project Server end.
 
 ----
-HOW TO COMPILER  
+HOW TO COMPILER?
 ====
-````shell
-using DevC++ compiler main.cpp to .exe and run.
-````
-----
-tag:
+###Worning
+Please don't use DevC++ or MinGW Compiler, this project use Visual Studio Library.
+#####Visual Studio 2013
+1. Open Visual Studio 2013 and new Project, Copy Taiko_TCP_Server.cpp to your project path.
+2. Debug and run your project.
 
-Reference: 
+Technology
+====
+#####Library
+* Winsock 2
+* Visual C++ 2013
 
-Run virtual KeyCode enter or Mouse click events: 
+#####Reference
+ * [Virtual Key Event](https://batchloaf.wordpress.com/2012/04/17/simulating-a-keystroke-in-win32-c-or-c-using-sendinput/)
+ * [Virtual KeyCodes](http://msdn.microsoft.com/en-us/library/windows/desktop/dd375731.aspx)
+ * [KeyCode Events](http://msdn.microsoft.com/zh-tw/library/ms171548.aspx)
+ * [Winsock 2](http://msdn.microsoft.com/library/windows/desktop/ms738545.aspx)
 
-http://msdn.microsoft.com/zh-tw/library/ms171548(v=vs.110).aspx
-https://batchloaf.wordpress.com/2012/04/17/simulating-a-keystroke-in-win32-c-or-c-using-sendinput/
+Do Not Build to Run
+====
+If circumstances permit, You can directly execute ./Debug/server.exe Archives.
 
-TCP Server Client c++ .net framework 4.5:
+Platform and Systen requirements
+====
+OS: Windows XP/7/8/10
 
-null
+Software: 
+1. OSU!
+2. .NET Framework 4
+3. Microsoft Visual C++ 2013 Redistributable
