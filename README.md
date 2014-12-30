@@ -1,3 +1,6 @@
+Sorry, i can't parse tcp buffer, can't do anything, change to C#
+==================
+
 Taiko_Touch_Server
 ==================
 This is Taiko_Touch Project Server end.
