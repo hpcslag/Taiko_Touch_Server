@@ -1,0 +1,16 @@
+﻿已經開始建置於 2014/12/31 下午 04:20:56。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\Dog\Documents\Visual Studio 2013\Projects\Taiko_TCP_Server\Taiko_TCP_Server\Taiko_TCP_Server.vcxproj"。
+     1>ClCompile:
+         D:\VisualStudio2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Taiko_TCP_Server.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Taiko_TCP_Server.cpp
+         Taiko_TCP_Server.cpp
+     1>c:\users\dog\documents\visual studio 2013\projects\taiko_tcp_server\taiko_tcp_server\taiko_tcp_server.cpp(5): warning C4005: 'WINVER' : 巨集重複定義
+                 c:\program files (x86)\windows kits\8.1\include\shared\sdkddkver.h(215) : 請參閱 'WINVER' 之前的定義
+       Link:
+         D:\VisualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Dog\Documents\Visual Studio 2013\Projects\Taiko_TCP_Server\Debug\Taiko_TCP_Server.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Dog\Documents\Visual Studio 2013\Projects\Taiko_TCP_Server\Debug\Taiko_TCP_Server.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Dog\Documents\Visual Studio 2013\Projects\Taiko_TCP_Server\Debug\Taiko_TCP_Server.lib" /MACHINE:X86 Debug\stdafx.obj
+         Debug\Taiko_TCP_Server.obj
+         Taiko_TCP_Server.vcxproj -> C:\Users\Dog\Documents\Visual Studio 2013\Projects\Taiko_TCP_Server\Debug\Taiko_TCP_Server.exe
+     1>專案 "C:\Users\Dog\Documents\Visual Studio 2013\Projects\Taiko_TCP_Server\Taiko_TCP_Server\Taiko_TCP_Server.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:03.25
